@@ -1,97 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Clínica Medicina BSB</title>
-	</head>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <title>PET PALACE BSB</title>
+</head>
+<body>
+	<nav>
+    	<a class="a-menu" href="#"> HOME </a>
+			<a class="a-menu" href="#pag-sobre"> SOBRE </a>
+			<a class="a-menu" href="#pag-destaques"> DESTAQUES </a>
+			<a class="a-menu" href="#pag-login"> LOGIN </a>
+    </nav>
+    <header>    	
+    	<img src="img/banner.png" alt="banner contendo um cachorro com óculos"/>	
+    </header>
+    
+    <article  id="pag-sobre">
+    	<h1>PET PALACE BSB</h1>
 
-	<body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
-		<font face="Arial" size="6">
-			<p align="right">
-			<a href="#pag-sobre">SOBRE</a>
-			<a href="#pag-serviços">SERVIÇOS</a>
-			<a href="#pag-contatos">CONTATOS</a>
-		</font></p>
-		<hr>
+    	<p>Bem-vindo ao Pet Palace BSB, o paraíso dos animais de estimação em Brasília! Com uma equipe apaixonada por pets e uma ampla variedade de produtos e serviços personalizados, estamos aqui para garantir que seu amado animalzinho receba o melhor cuidado possível. Desde alimentos de alta qualidade até tratamentos de higiene e beleza, no Pet Palace BSB, seu pet é tratado com carinho e atenção. Visite-nos hoje mesmo e proporcione ao seu amiguinho uma experiência única e especial.</p>
+    </article>
 
-		<img src="img/novo-banner.png" width="100%" height="350">
-		<hr id="pag-sobre">
+    <section id="pag-destaques">
+			<h2>Destaques</h2>
 
-		<font face=Georgia size="5" color="#a6aa3e">
-		<h1>Clínica Médica BSB</h1>
-		</font>
-		<font face="Verdana" size="4" color="#757575">
-			<p align="justify">A <b>Clínica Médica BSB</b> tem o objetivo de possibilitar o acesso a um serviço de saúde, com atendimento médico de qualidade, prestado por profissionais capacitados e comprometidos com a saúde e o bem estar dos pacientes.</p>
+			<p>Contamos com os seguintes serviços em nossa loja</p>
+			<div id="contaner">
+			<div class="card">
+				<img src="img/grooming.png" alt="" />
+					<div class="card-content">
+						<h3>Tosa</h3>
+						<p></p>
+					</div>
+			</div>
 
-			<p align="justify">A <b>Clínica Médica BSB</b> é uma empresa com foco no atendimento Médico e Laboratorial de excelência. Atenta as novas demandas de uma população crescente nas regiões satélites do Distrito Federal, com a proposta de ofertar uma assistência humanizada, com profissionais capacitados e qualificados, nas diversas áreas médicas e laboratorial. Cientes de nosso papel na sociedade, atuamos sempre com responsabilidade e buscamos o melhor para o atendimento de nossos pacientes.</p>
+			<div class="card">
+				<img src="img/van.png" alt="">
+					<div class="card-content">
+						<h3>Taxi-Dog</h3>
+						<p></p>
+					</div>
+			</div>
 
-			<hr id="pag-serviços">
-		<font face=Georgia size="5" color="#a6aa3e">
-			<h2>Serviços</h2>
-		</font>
-		<p>Aqui está uma pequena amostra do nosso menu de opções.</p>
-		<table border="1">
-			<tr align="center">
-				<td colspan="2"><img src="img/foto1.jpg" width="450"></td>
-				<td colspan="2"><img src="img/foto2.jpg" width="450"></td>
-				<td colspan="2"><img src="img/foto3.jpg" width="450"></td>
-				<td colspan="2"><img src="img/foto4.jpg" width="450"></td>
-			</tr>
-			<tr align="center">
-				<td>Psquiatra</td>
-			    <td>R$200 a consulta</td>
-			    <td>Pediatra</td>
-			    <td>R$150 a consulta</td>
-			    <td>Ortopedista</td>
-			    <td>R$220 a consulta</td>
-			    <td>Ginecologista</td>
-			    <td>R$250 mensais</td>
-			</tr>
+			<div class="card">
+				<img src="img/clinic.png" alt=""/>
+					<div class="card-content">
+						<h3>Hotel</h3>
+						<p></p>
+					</div>
+			</div>
 
-		</table>
-		<hr id="pag-contatos">
-
-		<font face=Georgia size="5" color="#a6aa3e">
-			<h2>Contatos</h2>
-		</font>
-
-		<form>
+			<div class="card">
+				<img src="img/dog.png" alt="" />
+					<div class="card-content">
+						<h3>Banho</h3>
+						<p>.</p>
+					</div>
+				</div>	
+			</div>
+		</section>
+    
+    <section id="pag-login">
+    	<h2>Login</h2>
+    	<form>
+    		<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email" placeholder="nomeo@email.com" />
 			
-			<label for="nome"><b>Nome:</b></label><br>
-			<input id="nome" type="text" name="nome-cliente" size="80" placeholder="Nome Completo" required=""><br><br>
-
-			<label for="email"><b>E-mail:</b></label><br>
-			<input id="email" type="email" name="email-cliente" size="80" placeholder="nome@email.com"><br><br>
-
-			<lable for="serviço"><b>Serviço:</b></lable><br>
-        	<select id="serviço" name="" size="">
-	            <option></option>
-	            <option value="pediatra">Psquiatra</option>
-	            <option value="geriatra">Pediatra</option>
-	            <option value="ortopedista">Ortopedista</option>
-	            <option value="clinico-geral">Ginecologista</option>
-        	</select><br><br>
-
-        	<lable for="quantidade"><b>Quantidade:<b></lable><br>
-        	<input id="quantidade" type="number" name="" size="120" min="1" max="10000000000000000000000000000000000000000000" step="1" placeholder="Somente números"><br><br>
-
-        	<fieldset>
-            	<legend><b>Forma:</b></legend>
-            	<input id="presencial" type="radio" name="forma" value="pre"><label for="presencial">Presencial</label><br>
-            	<input id="online" type="radio" name="forma" value="onl"><label for="online">On-line</label>
-        	</fieldset><br>
-
-        	<lable for="comentarios"><b>Comentários:</b></lable><br><br>
-        	<textarea id="comentarios" cols="80" rows="5"></textarea>
-
-        	<p align="justify"><input type="submit" name="btn-encomendar" value="ENCOMENDAR">
-        	<input type="reset" name="btn-cancelar" value="CANCELAR"></p>
-
-		</form>
-		<p align="right"><a href="#">TOPO</a><p>
-		<hr>
-    	<p align="center">Desenvolvido por <a href="https://www.instagram.com/1marcosv1/" target="_blank">Marcos Cunha</a> - 2023</p>
-
-		</font>
-	</body>
+			<label for="senha">Senha:</label>
+			<input id="senha" type="password" name="senha" placeholder="Somente números" />
+			<hr>
+			<p><input type="submit" name="bnt-agendar" value="LOGIN"  />
+			   <input type="reset" name="btn-cancelar" value="CANCELAR" /></p>
+    	</form>
+    </section>
+    <footer>
+    	<p>
+    		<p>Desenvolvido por <a href="http://instagram.com/1marcosv1" target="_blank"><b>Marcos Cunha<b></a> - 2023</p>
+    	</p>
+    </footer>
+</body>
 </html>
