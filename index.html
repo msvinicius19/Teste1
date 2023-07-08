@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Medicina BSB</title>
+	</head>
+
+	<body link="#8BC34A" alink="#8BC34A" vlink="#8BC34A">
+		<font face="Arial" size="6">
+			<p align="right">
+			<a href="#pag-sobre">SOBRE</a>
+			<a href="#pag-serviços">SERVIÇOS</a>
+			<a href="#pag-contatos">CONTATOS</a>
+		</font></p>
+		<hr>
+
+		<img src="img/novo-banner.png" width="100%" height="350">
+		<hr id="pag-sobre">
+
+		<font face=Georgia size="5" color="#a6aa3e">
+		<h1>Clínica Médica BSB</h1>
+		</font>
+		<font face="Verdana" size="4" color="#757575">
+			<p align="justify">A <b>Clínica Médica BSB</b> tem o objetivo de possibilitar o acesso a um serviço de saúde, com atendimento médico de qualidade, prestado por profissionais capacitados e comprometidos com a saúde e o bem estar dos pacientes.</p>
+
+			<p align="justify">A <b>Clínica Médica BSB</b> é uma empresa com foco no atendimento Médico e Laboratorial de excelência. Atenta as novas demandas de uma população crescente nas regiões satélites do Distrito Federal, com a proposta de ofertar uma assistência humanizada, com profissionais capacitados e qualificados, nas diversas áreas médicas e laboratorial. Cientes de nosso papel na sociedade, atuamos sempre com responsabilidade e buscamos o melhor para o atendimento de nossos pacientes.</p>
+
+			<hr id="pag-serviços">
+		<font face=Georgia size="5" color="#a6aa3e">
+			<h2>Serviços</h2>
+		</font>
+		<p>Aqui está uma pequena amostra do nosso menu de opções.</p>
+		<table border="1">
+			<tr align="center">
+				<td colspan="2"><img src="img/foto1.jpg" width="450"></td>
+				<td colspan="2"><img src="img/foto2.jpg" width="450"></td>
+				<td colspan="2"><img src="img/foto3.jpg" width="450"></td>
+				<td colspan="2"><img src="img/foto4.jpg" width="450"></td>
+			</tr>
+			<tr align="center">
+				<td>Psquiatra</td>
+			    <td>R$200 a consulta</td>
+			    <td>Pediatra</td>
+			    <td>R$150 a consulta</td>
+			    <td>Ortopedista</td>
+			    <td>R$220 a consulta</td>
+			    <td>Ginecologista</td>
+			    <td>R$250 mensais</td>
+			</tr>
+
+		</table>
+		<hr id="pag-contatos">
+
+		<font face=Georgia size="5" color="#a6aa3e">
+			<h2>Contatos</h2>
+		</font>
+
+		<form>
+			
+			<label for="nome"><b>Nome:</b></label><br>
+			<input id="nome" type="text" name="nome-cliente" size="80" placeholder="Nome Completo" required=""><br><br>
+
+			<label for="email"><b>E-mail:</b></label><br>
+			<input id="email" type="email" name="email-cliente" size="80" placeholder="nome@email.com"><br><br>
+
+			<lable for="serviço"><b>Serviço:</b></lable><br>
+        	<select id="serviço" name="" size="">
+	            <option></option>
+	            <option value="pediatra">Psquiatra</option>
+	            <option value="geriatra">Pediatra</option>
+	            <option value="ortopedista">Ortopedista</option>
+	            <option value="clinico-geral">Ginecologista</option>
+        	</select><br><br>
+
+        	<lable for="quantidade"><b>Quantidade:<b></lable><br>
+        	<input id="quantidade" type="number" name="" size="120" min="1" max="10000000000000000000000000000000000000000000" step="1" placeholder="Somente números"><br><br>
+
+        	<fieldset>
+            	<legend><b>Forma:</b></legend>
+            	<input id="presencial" type="radio" name="forma" value="pre"><label for="presencial">Presencial</label><br>
+            	<input id="online" type="radio" name="forma" value="onl"><label for="online">On-line</label>
+        	</fieldset><br>
+
+        	<lable for="comentarios"><b>Comentários:</b></lable><br><br>
+        	<textarea id="comentarios" cols="80" rows="5"></textarea>
+
+        	<p align="justify"><input type="submit" name="btn-encomendar" value="ENCOMENDAR">
+        	<input type="reset" name="btn-cancelar" value="CANCELAR"></p>
+
+		</form>
+		<p align="right"><a href="#">TOPO</a><p>
+		<hr>
+    	<p align="center">Desenvolvido por <a href="https://www.instagram.com/1marcosv1/" target="_blank">Marcos Cunha</a> - 2023</p>
+
+		</font>
+	</body>
+</html>
